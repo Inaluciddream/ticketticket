@@ -1,0 +1,55 @@
+<view class="create-ticket-container" >
+    <view class="form">
+        <view class="form-item">
+            <view class="form-name">
+                券名称
+            </view>
+            <input type="text" class="right-input" placeholder="请输入优惠券名称" placeholder-class="placeholder-class" />
+        </view>
+        <view class="form-item form-item-ticket-num">
+            <view class="form-name">
+                券数量
+            </view>
+            <view class="form-item-right-con">
+                <view class="">
+                    <label class="radio">
+                        <radio value="r1"/>不限
+                    </label>
+                    <label class="radio" checked="true">
+                        <radio value="r2" />限制
+                    </label>
+                </view>
+                <input type="text" placeholder="请输入优惠券数量" placeholder-class="placeholder-class" />
+            </view>
+        </view>
+        <view class="form-item">
+            <view class="form-name">
+                生效日期
+            </view>
+            <picker mode="time" value="{{startTime}}">
+                <view class="picker">
+                    {{startTime}}
+                </view>
+            </picker>
+        </view>
+        <view class="form-item">
+            <view class="form-name">
+                失效日期
+            </view>
+            <picker mode="time" value="{{endTime}}">
+                <view class="picker">
+                    {{endTime}}
+                </view>
+            </picker>
+        </view>
+        <view class="form-item form-item-use-info">
+            <view class="form-name">
+                使用说明
+            </view>
+             <textarea class="right-textarea" placeholder="请输入使用说明" name="textarea" maxlength="100"/>
+        </view>
+    </view>
+    <view class="create-btn-con">
+        <view class="create-btn">确定</view>
+    </view>
+</view>

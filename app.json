@@ -1,0 +1,21 @@
+{
+  "pages":[
+    "pages/login/login",
+    "pages/index/index",
+    "pages/ticketList/ticketList",
+    "pages/ticketUseDetail/ticketUseDetail",
+    "pages/createTicket/createTicket",
+    "pages/ticketDetail/ticketDetail",
+    "pages/ticketUseResult/ticketUseResult",
+    "pages/storeInfo/storeInfo",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#27C5B7",
+    "navigationBarTitleText": "券券商户端",
+    "navigationBarTextStyle":"white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

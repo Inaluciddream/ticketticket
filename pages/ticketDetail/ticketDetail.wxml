@@ -1,0 +1,39 @@
+<view class="ticket-detail-container" >
+    <view class="ticket-info-item">
+        <view class="item-name">券名称</view>
+        <view class="item-value">消费送纸巾</view>
+    </view>
+    <view class="ticket-info-item">
+        <view class="item-name">数量</view>
+        <view class="item-value">不限</view>
+    </view>
+    <view class="ticket-info-item">
+        <view class="item-name">有效期</view>
+        <view class="item-value">2020-02-03至2020-02-04</view>
+    </view>
+    <view class="ticket-info-item">
+        <view class="item-name">使用说明</view>
+        <view class="item-value">消费就送一包湿纸巾，数量有限先到先得</view>
+    </view>
+    <view class="ticket-info-item">
+        <view class="item-name">状态</view>
+        <view class="item-value">有效</view>
+    </view>
+    <view class="bottom-tool">
+        <view class="tool-menu">
+            <image></image>
+            <view>
+                编辑
+            </view>
+        </view>
+        <view class="tool-menu">
+            <image></image>
+            <view>
+                作废
+            </view>
+        </view>
+        <view class="share-btn">
+            分享给朋友
+        </view>
+    </view>
+</view>

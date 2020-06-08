@@ -1,0 +1,42 @@
+/* pages/ticketList/ticketList.wxss */
+.ticket-list-container {
+    background-color: #F5F5F5;
+    padding: 0 10rpx;
+    height: calc(100vh - 126rpx);
+}
+.single-ticket {
+    border-radius: 10rpx;
+    background-color: #fff;
+    padding: 36rpx 20rpx 0 30rpx;
+    height: 182rpx;
+    margin: 20rpx 0;
+}
+.ticket-left {
+    width: 65%;
+    float: left;
+}
+.ticket-right {
+    float: right;
+    width: 35%;
+    text-align: right;
+}
+.ticket-name {
+    color: #000;
+    font-size: 36rpx;
+    line-height: 50rpx;
+    margin-bottom: 30rpx;
+}
+.ticket-time {
+    color: #666464;
+    line-height: 40rpx;
+}
+.ticket-status {
+    font-size: 36rpx;
+    margin-bottom: 30rpx;
+}
+.ticket-status.status-1 {
+    color: #6DD517;
+}
+.ticket-num-info {
+    color: #666464;
+}

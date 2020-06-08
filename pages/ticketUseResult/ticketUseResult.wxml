@@ -1,0 +1,9 @@
+<view class="ticket-use-result-container">
+    <view class="ticket-use-result-con">
+        <icon class="ticket-use-result-icon" type="success" size="93"></icon>
+        <view class="ticket-use-result-msg">成功</view>
+    </view>
+    <view class="go-home-btn">
+        返回首页
+    </view>
+</view>

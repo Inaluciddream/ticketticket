@@ -1,0 +1,59 @@
+/**index.wxss**/
+.index-container {
+  height: 100vh;
+  background-color: #D8D8D8;
+}
+.index-swiper {
+  height: 232rpx;
+}
+.bottom-container {
+  height: calc(100vh - 232rpx);
+  background-color: #fff;
+  position: relative;
+  padding: 52rpx 20rpx;
+}
+.scan-btn-con {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 134rpx;
+  border-top: 4rpx solid #F2EEF4;
+  padding: 18rpx 44rpx;
+}
+.scan-btn {
+  background-color: #27C5B7;
+  color: #fff;
+  font-size: 36rpx;
+  text-align: center;
+  width: 100%;
+  line-height: 94rpx;
+  height: 94rpx;
+  border-radius: 10rpx;
+}
+.menu-entrance {
+  height: 164rpx;
+  width: 100%;
+  margin-bottom: 52rpx;
+  padding: 42rpx 20rpx; 
+  border-radius: 10rpx;
+}
+.menu-icon {
+  width: 80rpx;
+  height: 80rpx;
+  margin-right: 20rpx;
+  float: left;
+}
+.menu-text {
+  color: #fff;
+  font-size: 40rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  float: left;
+}
+.menu-1 {
+  background-color: #EAAC22;
+}
+.menu-2 {
+  background-color: #2263EA;
+}

@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view class="index-container">
+  <swiper class="index-swiper" indicator-dots="false" indicator-color="rgba(0,0,0,.3)" autoplay="true" 
+    current="0" current-item-id="" interval="5000" duration="1000" circular="false" vertical="false" 
+  previous-margin="false" next-margin="0px" display-multiple-items="1" skip-hidden-item-layout="false" bindchange="" bindanimationfinish="">
+    <swiper-item wx:for="{{swiperData}}" wx:for-index="idx" wx:for-item="item" wx:key="idx"></swiper-item>
+  </swiper>
+  <view class="bottom-container" hover-class="none" hover-stop-propagation="false">
+    <view class="top-menu" hover-class="none" hover-stop-propagation="false">
+      <view class="menu-entrance menu-1" hover-class="none" hover-stop-propagation="false">
+        <image class="menu-icon">
+          
+        </image>
+        <view class="menu-text">
+          优惠券制作与管理
+        </view>
+      </view>
+      <view class="menu-entrance menu-2" hover-class="none" hover-stop-propagation="false">
+        <image class="menu-icon">
+          
+        </image>
+        <view class="menu-text">
+          门店信息
+        </view>
+      </view>
+    </view>
+    <view class="scan-btn-con" hover-class="none" hover-stop-propagation="false">
+      <view class="scan-btn">扫码核销</view>
+    </view>
+  </view>
+</view>

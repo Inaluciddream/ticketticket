@@ -1,0 +1,37 @@
+<view class="store-info-container">
+    <view class="store-info-item">
+        <view class="item-name">门店名称</view>
+        <view class="item-value">东升便利店</view>
+    </view>
+    <view class="store-info-item">
+        <view class="item-name">联系电话</view>
+        <view class="item-value">12312312312</view>
+    </view>
+    <view class="store-info-item">
+        <view class="item-name">门店地址</view>
+        <view class="item-value">刷卡机啥卡好多啦哈沙来撒会大怎么着</view>
+    </view>
+    <view class="store-info-item">
+        <view class="item-name">门店Logo</view>
+        <view class="item-value"><image></image></view>
+    </view>
+    <view class="store-info-item">
+        <view class="item-name">营业执照</view>
+        <view class="item-value"><image></image></view>
+    </view>
+    <view class="store-info-item">
+        <view class="item-name">许可证</view>
+        <view class="item-value"><image></image></view>
+    </view>
+    <view class="store-qrcode-info-box">
+        <view class="bottom-text-tip">
+            下载店铺小程序码，用户扫码领券
+        </view>
+        <view class="qrcode-btn-con">
+            <view class="qrcode-download-btn">
+                下载小程序码
+            </view>
+        </view>
+        
+    </view>
+</view>

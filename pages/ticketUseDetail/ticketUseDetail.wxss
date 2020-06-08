@@ -1,0 +1,40 @@
+.ticket-use-detail {
+    background-color: #fff;
+}
+.detail-center-container {
+    margin: 134rpx 140rpx 42rpx;
+    background-color: #F6FCFC; 
+    border:2rpx solid rgba(181,216,223,1);
+    padding:46rpx 34rpx 26rpx;
+    min-height: 240rpx;
+}
+.ticket-use-name {
+    color: #000;
+    font-size: 40rpx;
+    text-align: center;
+    line-height: 56rpx;
+    margin-bottom: 32rpx;
+}
+.ticket-use-info {
+    color: #666464;
+    line-height: 40rpx;
+}
+.ticket-use-get-time, ticket-use-phone {
+    line-height: 40rpx;
+    margin-bottom: 26rpx;
+}
+.ticket-use-ohther-info {
+    padding: 0 140rpx;
+    margin-bottom: 140rpx;
+}
+.ticket-use-btn {
+    width: 520rpx;
+    margin: 0 auto;
+    background-color: #27C5B7;
+    border-radius: 10rpx;
+    height: 94rpx;
+    line-height: 94rpx;
+    color: #fff;
+    text-align: center;
+    font-size: 36rpx;
+}

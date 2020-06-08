@@ -1,0 +1,112 @@
+/* pages/login/login.wxss */
+.login-wrap {
+  width: 100%;
+  height: 100vh;
+  background-color: #D8D8D8;
+  position: relative;
+}
+.login-content {
+  padding: 82rpx 60rpx 0;
+  background-color: #FFFFFF;
+  height: 544rpx;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.form-item {
+  height: 92rpx;
+  padding: 24rpx 0;
+}
+.break-line {
+  background-color: #F2EEF4;
+  height: 2rpx;
+}
+.item-name {
+  float: left;
+  color: #000;
+  width: 144rpx;
+  font-size: 32rpx;
+  padding: 0 20rpx;
+  border-right: 2rpx solid #F2EEF4;
+  text-align: right;
+}
+.form-item input {
+  float: left;
+  padding: 0 20rpx;
+}
+.btn-area {
+  padding-top: 66rpx;
+}
+.login-btn {
+  margin-bottom: 26rpx;
+  background-color: #27C5B7;
+  color: #fff;
+  font-weight: normal;
+  font-size: 36rpx;
+}
+.register {
+  font-size: 28rpx;
+  color: #27C5B7;
+  text-align: center;
+  height: 44rpx;
+  line-height: 44rpx;
+}
+.register-dialog {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 90;
+}
+.dialog-bg {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.register-tip-content {
+  border-radius: 10rpx;
+  background-color: #fff;
+  width: 660rpx;
+  height: 748rpx;
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  margin-left: -330rpx;
+  margin-bottom: -374rpx;
+  padding: 28rpx 32rpx 0;
+  color: #9C9C9C;
+}
+.regiter-tip-title {
+  text-align: center;
+  line-height: 30rpx;
+  margin-bottom: 20rpx;
+}
+.q-a-content {
+  font-size: 24rpx;
+  height: 600rpx;
+  overflow-y: auto;
+}
+.q-a-content view {
+  line-height: 40rpx;
+  margin-bottom: 20rpx;
+}
+.to-register-btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 112rpx;
+  border-top: 2rpx solid #B3B0B5;
+}
+.to-register-btn view {
+  text-align: center;
+  color: #27C5B7;
+  font-size: 32rpx;
+  height: 110rpx;
+  line-height: 110rpx;
+}

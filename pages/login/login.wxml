@@ -1,0 +1,37 @@
+<view class="login-wrap">
+  <view class="login-content">
+    <form>
+      <view class="form-item">
+        <view class="item-name">手机号</view>
+        <input name="input" cursor-spacing="394rpx" placeholder="请输入手机号" />
+      </view>
+      <view class="break-line"></view>
+      <view class="form-item">
+        <view class="item-name">密码</view>
+        <input name="input" cursor-spacing="300rpx" placeholder="请输入密码" />
+      </view>
+      <view class="btn-area">
+        <button class="login-btn" formType="submit">登录</button>
+        <view class="register" bindtap="showRegisteraDialog">商户入驻</view>
+      </view>
+    </form>
+  </view>
+  <view class="register-dialog" wx:if="{{registerDialog}}">
+    <view class="dialog-bg" bindtap="closeDialog">
+    </view>
+    <view class="register-tip-content">
+      <view class="regiter-tip-title">易券营销</view>
+      <view class="q-a-content">
+        <view>Q：什么是易券营销？</view>
+        <view> A：易券营销主要帮助商家提升线下门店流量，引流门店周边一公里内的顾客。</view>
+        <view> Q：如何进行一次营销？</view>
+        <view> A：商家制作券、分享券；用户领券、到店使用。简单两步即可完成一次线下营销。 </view>
+        <view>Q：如何提升更多收入？</view>
+        <view> A：用户到店后，商家可以通过让用户扫码进群等方式将用户转化为店铺老客，并直接运营用户，以便进行二次营销获取更多收入。</view>
+      </view>
+      <view class="to-register-btn">
+        <view bindtap="toRegister">立即加入</view>
+      </view>
+    </view>
+  </view>
+</view>

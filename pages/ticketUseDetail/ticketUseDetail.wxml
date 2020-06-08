@@ -1,0 +1,21 @@
+<view class="ticket-use-detail" hover-class="none" hover-stop-propagation="false">
+    <view class="detail-center-container" hover-class="none" hover-stop-propagation="false">
+        <view class="ticket-use-name">
+            快递存放0.8元/次
+        </view>
+        <view class="ticket-use-info">
+            3.8节日福利，到店消费即送饮料，第二行
+        </view>
+    </view>
+    <view class="ticket-use-ohther-info">
+        <view class="ticket-use-get-time">
+            领取时间：2020-02-02 12:55:56
+        </view>
+        <view class="ticket-use-phone">
+            手机号：17600141014
+        </view>
+    </view>
+    <view class="ticket-use-btn">
+        确认核销
+    </view>
+</view>
